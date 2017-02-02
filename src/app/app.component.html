@@ -1,3 +1,42 @@
 <h1>
   {{title}}
 </h1>
+<h4>Affichage</h4>
+<div class="btn-group btn-toggle"> 
+    <button class="btn btn-success" data-toggle="collapse" data-target=".collapsible">Complet</button>
+    <button class="btn btn-default active" data-toggle="collapse" data-target=".collapsible">Simple</button>
+  </div>
+  <div class="well collapse" id="collapsible" class=""> 
+     Full display !!!
+  </div>
+
+
+  <table class="table table-striped">
+    <tr>
+      <th>N°</th>
+      <th>NAME</th>
+      <th>FIRSTNAME</th>
+      <th class="collapsible">PHONE</th>      
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Bismuth</td>
+      <td>Paul</td>
+      <td class="collapsible">0412457812</td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Obama</td>
+      <td>Barack</td>
+      <td class="collapsible">0645124578</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Parker</td>
+      <td>Maceo</td>
+      <td class="collapsible">0612457898</td>
+    </tr>
+  </table>
